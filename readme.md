@@ -45,8 +45,8 @@ I personaly use xfce4 but now I'm on gnome.
 - Install my prompt:
   - Clone the repos and enter that:
   ```zsh
-  git clone https://github.com/0xb4dc0d3x/mylinuxtheme.git
-  cd mylinuxtheme/prompt
+  git clone https://github.com/0xb4dc0d3x/MyLinuxTheme.git
+  cd MyLinuxTheme/prompt
   ```
   - Copy necessary files:
   ```zsh
