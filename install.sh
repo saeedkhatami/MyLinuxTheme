@@ -178,7 +178,16 @@ install_zsh_oh_my_zsh() {
         return 1
     fi
 
-    echo "Oh My Zsh, zap, Starship prompt, and exa are now installed."
+    cp starship.toml ~/.config
+    cp .zshrc $HOME
+    # Check if the copying was successful
+    if [ $? -eq 0 ]; then
+        echo "zshrc and starship config installed successfully."
+    else
+        echo "Failed to install zshrc and starship config. Please check the source file and try again."
+    fi
+
+    echo "Oh My Zsh, zap, Starship prompt, and exa are now installed and configured."
 }
 
 # Function to install Neofetch
