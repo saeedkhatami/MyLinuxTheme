@@ -9,6 +9,7 @@ I personaly use xfce4 but now I'm on gnome.
 ![power option](Screenshot4.png)
 ![shell](Screenshot5.png)
 
+## Install via install.sh
 
 - [Nerd fonts](https://www.nerdfonts.com/font-downloads)
 
