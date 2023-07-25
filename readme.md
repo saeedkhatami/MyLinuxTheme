@@ -46,7 +46,7 @@ I personaly use xfce4 but now I'm on gnome.
   - Clone the repos and enter that:
   ```zsh
   git clone https://github.com/0xb4dc0d3x/mylinuxtheme.git
-  cd dots/configs/prompt
+  cd mylinuxtheme/prompt
   ```
   - Copy necessary files:
   ```zsh
