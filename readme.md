@@ -10,6 +10,15 @@ I personaly use xfce4 but now I'm on gnome.
 ![shell](Screenshot5.png)
 
 ## Install via [install.sh](install.sh)
+clone
+```zsh
+chmod +x install.sh
+./install.sh
+```
+
+this install.sh file is on testing any bugs or issue, open an issue and we will fix that.
+
+## Install manualy
 
 - [Nerd fonts](https://www.nerdfonts.com/font-downloads)
 
@@ -45,13 +54,10 @@ I personaly use xfce4 but now I'm on gnome.
 
 - Install my prompt:
   - Clone the repos and enter that:
-  ```zsh
-  git clone https://github.com/0xb4dc0d3x/MyLinuxTheme.git
-  cd MyLinuxTheme/prompt
-  ```
   - Copy necessary files:
   ```zsh
-  cp starship.toml ~/.config && cp .zshrc $HOME
+  cp starship.toml ~/.config 
+  cp .zshrc $HOME
   ```
   > Then relaunch your terminal then congratulations your beautiful prompt is ready
   - Download then extract it to `~/.fonts`
