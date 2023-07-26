@@ -11,7 +11,6 @@ install_grub_theme() {
     python3 "$python_script" --install
 }
 uninstall_grub_theme() {
-    # Replace "python_script.py" with the actual filename of your Python script
     python_script="grub/4rch-gurb-th3m3.py"
 
     # Add commands to install Grub theme here
